@@ -1,11 +1,10 @@
 import './App.css'
+import AppC from "./component/App.tsx";
 
 function App() {
 
   return (
-    <>
-      <div>ntc1</div>
-    </>
+    <AppC />
   )
 }
 
