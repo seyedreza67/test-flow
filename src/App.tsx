@@ -1,10 +1,14 @@
 import './App.css'
 import AppC from "./component/App.tsx";
+import AppC2 from "./component/App2.tsx";
 
 function App() {
 
   return (
-    <AppC />
+    <>
+      <AppC />
+      <AppC2 />
+    </>
   )
 }
 
